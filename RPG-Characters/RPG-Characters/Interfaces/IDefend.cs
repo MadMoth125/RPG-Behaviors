@@ -1,10 +1,12 @@
 ﻿
 namespace RPG_Characters.Interfaces
 {
+	/// <summary>
+	/// Interface for defending against an attack.
+	/// </summary>
 	public interface IDefend
 	{
 		/// <summary>
-		/// Interface for defending against an attack.
 		/// Carries data about the instigator initiating the attack and the damage it is dealing.
 		/// </summary>
 		/// <param name="instigator">The instigator initiating the attack.</param>

@@ -42,6 +42,6 @@ namespace RPG_Characters.Classes
 
 		public virtual void Defend(object instigator, int dmg) => Console.WriteLine($"{Name} defended against {dmg} damage!");
 
-		protected virtual void Die() => Console.WriteLine($"{Name} died a horrible death!");
+		protected virtual void Die() => Console.WriteLine($"\n{Name} died a horrible death!");
 	}
 }
