@@ -23,7 +23,7 @@
 				}
 				
 				// announce the attack
-				Console.WriteLine($"{Name} viciously attacked {character.Name} for {AttackDamage} damage!");
+				Console.WriteLine($"{Name} viciously attacked {character.Name}!");
 				
 				// call the target's defend method
 				// (acts as attacking the target)
